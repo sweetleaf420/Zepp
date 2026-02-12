@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zeppelin Dental</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zeppelin Dental</h1>
+      <p>Professional dentist services you can trust</p>
+    </header>
+
+    <section>
+      <h2>Book a Visit</h2>
+
+      <!-- Netlify Form -->
+      <form name="booking" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="booking" />
+
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="date" name="date" required />
+
+        <button type="submit">Request Visit</button>
+      </form>
+    </section>
+  </body>
+</html>
