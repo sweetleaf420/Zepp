@@ -28,3 +28,118 @@ button {
   border: none;
   cursor: pointer;
 }
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  box-sizing: border-box;
+}
+#grayBox {
+  background-color: #565656;
+  height: fit-content;
+  color: white;
+  font-size: medium;
+  margin-top: 30px;
+  padding: 20px 50px 30px 50px;
+}
+#grayBox p {
+  margin-bottom: 14px;
+}
+#h1 {
+  font-size: 25px;
+}
+#h2 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+#namedate {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+#about {
+  padding: 30px 50px 0 50px;
+  font-size: 13px;
+  color: #3e3e3e;
+}
+
+#label {
+  border-bottom: #848484 solid 0.5px;
+}
+#label p {
+  font-size: 12px;
+}
+#education {
+  padding: 20px 50px 0px 50px;
+  color: #3e3e3e;
+}
+
+#facu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#facu p {
+  margin-bottom: 10px;
+}
+#uniyear {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+#uniyear p {
+  margin: 0;
+}
+
+#work {
+  padding: 20px 50px 0px 50px;
+  color: #3e3e3e;
+}
+#col1 {
+  font-size: 12px;
+}
+#li {
+  display: flex;
+}
+#columns {
+  display: flex;
+  justify-content: space-between;
+}
+#skills #columns {
+  margin-top: 20px;
+}
+#skills {
+  padding: 20px 50px 0px 50px;
+  color: #3e3e3e;
+}
+#level {
+  height: 5px;
+  width: 130px;
+  background-color: rgb(179, 179, 179);
+}
+#part90 {
+  background-color: rgb(255, 196, 0);
+  height: 5px;
+  width: 90%;
+}
+#part50 {
+  background-color: rgb(255, 196, 0);
+  height: 5px;
+  width: 50%;
+}
+#part100 {
+  background-color: rgb(255, 196, 0);
+  height: 5px;
+  width: 100%;
+}
